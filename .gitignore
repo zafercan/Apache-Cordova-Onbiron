@@ -11,6 +11,7 @@
 # Generated files
 bin/
 gen/
+IonicApp/platforms/
 
 # Gradle files
 .gradle/
