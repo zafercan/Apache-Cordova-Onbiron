@@ -13,12 +13,25 @@
 			class="animate modal-content"
 			ng-class="hide.bars ? 'content-dark full' : 'content-light has-header has-footer'">
 
-				<img class="modal-img" ng-src="{{grid.srcImage}}"/>
-				<img class="imgRaf" ng-src="{{grid.srcRaf}}"/>
+				<div class="list card">
+
+					<div class="item item-image">
+						<img class="modal-img" ng-src="{{grid.srcImage}}"/>
+					</div>
+
+					<div class="item item-icon-left assertive" href="#">
+
+					</div>
+
+				</div>
+
+				<br/>
 
 				<!-- < ng-src="{{data.selected.src}}"  > -->
 			</ion-scroll>
+			<ion-footer-bar  class="bar-light animate" ng-hide="hide.bars" ><img class="imgRaf" ng-src="{{grid.srcRaf}}"/>
+			</ion-footer-bar>
 		</ion-slide>
 	</ion-slide-box>
-	<ion-footer-bar class="bar-light animate" ng-hide="hide.bars" ></ion-footer-bar>
+
 </ion-modal-view>

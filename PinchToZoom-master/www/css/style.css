@@ -21,9 +21,6 @@
 	margin-right: auto;
 	margin-top: 5px;
 }
-.body {
-				background: #0a1c2b;
-			}
 .animate {
 	-webkit-transition: all .15s linear;
 	transition: all .15s linear;
